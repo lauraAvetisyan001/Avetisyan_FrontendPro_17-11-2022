@@ -31,6 +31,7 @@ if (city) {
     alert(errorString + 'city');
 }
 
+
 const sport = prompt('What is your favourite sport?');
 
 if(sport) {
