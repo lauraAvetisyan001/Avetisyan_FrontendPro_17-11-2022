@@ -8,4 +8,4 @@ const keyLength = prompt('Which length for key you want?');
     text += characters.charAt(Math.floor(Math.random() * characters.length));  
     return text;
 } 
-console.log(generateKey());
+alert(generateKey());

@@ -70,6 +70,4 @@ let users = [
 
    const sum = users.reduce(function(accumulator, currentValue){
         return accumulator + Number(currentValue.balance.replace(/[\s,$]/g, ''));
-   }, 0); console.log(sum);
-  
-   
+   }, 0); console.log(sum); 

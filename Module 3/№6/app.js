@@ -1,11 +1,11 @@
 // Задача №1
 
-// let a = 19.5;
+let a = 19.5;
 
-// do{
-//     a += 0.5;
-//     console.log(a);
-// } while(a < 30);
+do{
+    a += 0.5;
+    console.log(a);
+} while(a < 30);
 
 //  =============================  
     
@@ -36,23 +36,21 @@
 
 // Задача №4
 
-const num = prompt('input a number');
-function test(num){
-    for(let i = 2; i < num; i++) 
-        if(num % i === 0) 
-            console.log('Это не простое число');
-            console.log('Это простое число');
-          
-             
-} 
+// const num = prompt('input a number');
 
-
-
-
-
-
-
+// let flag = true;
+// for(let i = 2; i < num; i++){   
+//     if(num % i === 0){
+//         flag = false;        
+//         break;
+// };  };
+//     if(flag){
+//         alert('Это простое число');
+//     } else {
+//         alert('Это составное число');
+//     }
 // ==========================================
+
 
 // Задача №5
 
