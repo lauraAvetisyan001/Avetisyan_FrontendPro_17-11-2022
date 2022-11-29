@@ -10,16 +10,6 @@ for(i = 0; i <= lengthArr - 1; i++){
 } console.log(arr);
 
 
-// arr.sort(function(a, b) {
-//     return a - b; 
-// });
+arr.splice(1, 3);
 
-// const arr = [5, 7, 3, 1, 9];
-
-// arr.sort(function(a,b) {
-//     return a - b;
-// }); console.log(arr);
-
-// arr.splice(1, 3);
-
-// console.log(arr);
+console.log(arr);
