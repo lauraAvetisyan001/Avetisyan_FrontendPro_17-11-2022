@@ -1,11 +1,11 @@
 // Задача №1
 
-let a = 19.5;
+// let a = 19.5;
 
-do{
-    a += 0.5;
-    console.log(a);
-} while(a < 30);
+// do{
+//     a += 0.5;
+//     console.log(a);
+// } while(a < 30);
 
 //  =============================  
     
@@ -26,15 +26,15 @@ do{
 
 // const number = 100;
 
-// for(let a = 1; a**2 < number; a++){
-//     const result = a**2;
-//     console.log(result);
+// for(let a = 1; a**2 < number; a++){    
+//     console.log(a);
 // }
 // ========================================
 
 
 
 // Задача №4
+
 
 // const num = prompt('input a number');
 
@@ -54,14 +54,14 @@ do{
 
 // Задача №5
 
-// const num = prompt('input a number');
+const num = prompt('input a number');
 
-// for(let n = 1; n < 10; n++){
-//     const result = 3**n;
-//     if(num == result){
-//         alert(`Да, число ${num} можно получить, если возвести его в ${n} степень`);
-//         break;
-//     } else {
-//         alert(`Число ${num} нельзя получить, если возвести его в ${n} степень \n Нажми ок! :)`);       
-//     }   
-// };
+for(let n = 1; n < 10; n++){
+    const result = 3**n;
+    if(num == result){
+        alert(`Да, число ${num} можно получить, если возвести 3 в ${n} степень`);
+        break;
+    } else {
+        alert(`Число ${num} нельзя получить, если возвести 3 в ${n} степень \n Нажми ок! :)`);       
+    }   
+};
