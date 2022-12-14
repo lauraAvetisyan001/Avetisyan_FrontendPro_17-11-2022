@@ -7,7 +7,7 @@ const actionTwo = btnTwo.getAttribute('action');
 
 
 const chekOne = () => {
-    if(actionOne.indexOf('https://') == -1 && actionOne.indexOf('http://') == -1){
+    if(actionOne.indexOf('https') == -1 && actionOne.indexOf('http') == -1){
         btnOne.setAttribute('action', `https://${actionOne}`);
     } else {
         btnOne.setAttribute('action', `${actionOne}`);
@@ -17,7 +17,7 @@ const chekOne = () => {
 
 
 const chekTwo = () => {
-    if(actionTwo.indexOf('https://') == -1 && actionTwo.indexOf('http://') == -1){        
+    if(actionTwo.indexOf('https') == -1 && actionTwo.indexOf('http') == -1){        
         btnTwo.setAttribute('action', `https://${actionTwo}`);
     } else {
         btnTwo.setAttribute('action', `${actionTwo}`);
