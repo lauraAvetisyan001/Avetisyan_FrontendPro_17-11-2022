@@ -1,0 +1,41 @@
+body {
+    background-color:bisque;
+}
+
+.content{
+    padding-top: 75px;
+    display: flex;
+    margin-left: 300px;
+}
+
+img{
+    width: 500px;
+    height: 500px;
+}
+
+
+.img {
+    display: none;
+};
+
+.img:active{
+    display: block;
+}
+
+.prev{
+    height: 500px;
+    cursor: pointer;
+    background-color:rgb(215, 202, 226);
+    border: 1px solid rgb(201, 187, 187);
+}
+
+.next{
+    height: 500px;
+    cursor: pointer;
+    background-color:rgb(215, 202, 226);
+    border: 1px solid rgb(201, 187, 187);
+}
+
+.prev:hover, .next:hover{
+    background-color:blanchedalmond;
+}
