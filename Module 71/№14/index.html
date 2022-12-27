@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <form action="" id="form">
+            <fieldset>               
+                <legend>Форма для регистрации</legend>
+            <p>
+                <label for="">Name</label>
+                <input type="text" name="name" class="input">
+            </p>
+
+            <p>
+                <label for="">Sur name</label>
+                <input type="text" name="surname" class="input">
+            </p>
+
+            <p>
+                <input type="radio" name="sexM" id="" value="Мужской" class="input">
+                <label for="">Мужской</label>
+                <input type="radio" name="sexW" id="" value="Женский" class="input" >
+                <label for="">Женский</label>
+            </p>
+            <p>
+
+                <label for="">Город</label>
+                <select name="city" id="" class="input">
+                    <option value="Одесса">Одесса</option>
+                    <option value="Киев">Киев</option>
+                    <option value="Херсон">Херсон</option>
+                </select>
+            </p>
+            <p>
+                <label for="">Адрес</label>
+                <input type="textarea" name="adress" class="input">               
+            </p>
+
+            <p>
+                <input type="checkbox" name="langEng" id="" value="Английский" class="input">
+                <label for="">Английский</label>
+                <input type="checkbox" name="langUkr" id="" value="Украинский" class="input">
+                <label for="">Украинский</label>
+                <input type="checkbox" name="langFr" id="" value="Французский" class="input">
+                <label for="">Французский</label>
+                
+            </p>
+                <button class="btn" type='submit'>Сохранить</button>
+            </fieldset>
+        </form>
+      <div class="content"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

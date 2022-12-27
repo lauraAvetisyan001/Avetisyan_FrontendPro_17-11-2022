@@ -1,0 +1,12 @@
+.form {
+    display: block;
+}
+
+tr{
+   width: 500px;
+}
+
+td{
+    min-width: 70px;
+    border: 1px solid black
+}
