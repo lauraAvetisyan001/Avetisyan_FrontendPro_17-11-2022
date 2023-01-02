@@ -1,0 +1,2 @@
+Hello from new-file.txt
+Hello from main.txt!

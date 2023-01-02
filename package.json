@@ -1,0 +1,23 @@
+{
+  "name": "repository",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lauraAvetisyan001/Avetisyan_FrontendPro_17-11-2022.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lauraAvetisyan001/Avetisyan_FrontendPro_17-11-2022/issues"
+  },
+  "homepage": "https://github.com/lauraAvetisyan001/Avetisyan_FrontendPro_17-11-2022#readme",
+  "dependencies": {
+    "moment": "^2.29.4"
+  }
+}
