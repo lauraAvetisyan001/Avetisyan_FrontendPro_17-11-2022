@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/lauraAvetisyan001/Avetisyan_FrontendPro_17-11-2022#readme",
   "dependencies": {
+    "file-system": "^2.2.2",
+    "http": "^0.0.1-security",
     "moment": "^2.29.4"
   }
 }

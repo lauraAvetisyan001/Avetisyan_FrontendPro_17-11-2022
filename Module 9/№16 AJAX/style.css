@@ -1,0 +1,31 @@
+hr{
+    width: 100px;
+}
+
+.container{
+    margin-left: 555px;
+    margin-top: 150px;
+    width: 150px;
+    height: 315px;
+    border: 2px solid rgb(41, 80, 189);
+    text-align: center;
+}
+
+
+.city-name{
+    color: blue;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+
+.temp{
+    font-size: 19px;
+}
+
+.icon, .deg, .speed, .description, .pressure {
+    font-size: 17px;
+    margin-top: -15px;
+
+}
